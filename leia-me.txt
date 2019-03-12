@@ -1,0 +1,9 @@
+Este aplicativo é apenas uma amostra de layout utilizando o FloatingActionButton. No caso
+temos 2 FloatingActionButton dentro do FloatingActionMenu.
+
+Exemplos:
+android:layout_gravity="end|bottom" ---> essa linha mantem o botão no canto inferior da tela
+android:src="@drawable/..."         ---> essa linha permite que você troque a imagem no botão
+
+implementation 'com.github.clans:fab:1.6.4' ----> você deve adicionar essa dependencia para usar as 
+propriedades contidas em: https://github.com/Clans/FloatingActionButton
